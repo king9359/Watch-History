@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(0,0,5,0.93);
+}
+h1{
+    color: white;
+}
+button{
+    color: white;
+    background-color: rgb(42,42,56);
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 19px;
+    cursor:pointer;
+}
+button:active{
+    color: black;
+    background-color: rgb(226,226,256);
+}
+.today{
+    margin-bottom: 8px;
+    color: white;
+}
+p{
+    color: white;
+    font-family: roboto;
+    line-height: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.video-image{
+    display: inline-block;
+    vertical-align: top;
+}
+.video-image img{
+    width: 250px;
+    border-radius: 3%;
+}
+.video-info{
+    display: inline-block;
+    vertical-align: top;
+}
+.title{
+    width: 330px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.check{
+    display: inline-block;
+    text-align: center;
+    width: 15px;
+    background-color: rgb(226,226,256);
+    color: rgba(0,0,5,0.93);
+    border-radius: 100%;
+}
+.author,.stats{
+    font-size: 13px;
+    font-weight: 300;
+}
+.author{
+    margin-bottom: 7px;
+}
+.video1, .video2, .video3{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+.video1:hover,.video2:hover,.video3:hover{
+    background-color: rgba(250,250,265,0.1);
+}
